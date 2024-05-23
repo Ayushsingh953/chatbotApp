@@ -62,7 +62,7 @@ const ChatScreen = () => {
     }
 
     try {
-      const response = await axios.post('http://192.168.1.107:5000/ask', {
+      const response = await axios.post('https://chatbotbackend-2.onrender.com/ask', {
         question: message,
         topic: topic,
       });
